@@ -7,17 +7,17 @@ fullstackopen is a comprehensive course on modern web development, covering both
    - Introduction to the basics of web development
    - Overview of the architecture of web applications
 
-### Part 1: Introduction to React **Completed**
+### Part 1: Introduction to React 
    - Introduction to React library for building user interfaces
    - Component state, event handlers
    - More complex state & debugging React apps
 
-### Part 2: Communicating with Server **Completed**
+### Part 2: Communicating with Server 
    - Rendering collections & forms
    - Getting data from server & altering data
    - Adding styles to React app
 
-### Part 3: Programming a Server with NodeJS and Express **Completed**
+### Part 3: Programming a Server with NodeJS and Express 
    - Building a server using Node.js and Express
    - Deploying an app to the internet
    - Saving data to MongoDB
