@@ -15,6 +15,22 @@ const App = () => {
     setRight(right + 1)
   }
 
+  const History = ({ allClicks }) => {
+    if (allClicks.length == 0) {
+      return (
+        <div>
+          the app is used by pressing the buttons
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          button press history: {allClicks.join(' ')}
+        </div>
+      )
+    }
+  }
+
   return (
     <div>
       {left}
@@ -25,7 +41,7 @@ const App = () => {
         right
       </button>
       {right}
-      <p>{allClicks.join(' ')}</p>
+      <History allClicks={allClicks} />
     </div>
   )
 }
