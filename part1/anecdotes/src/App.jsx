@@ -14,10 +14,18 @@ const App = () => {
    
   const [selected, setSelected] = useState(0)
 
+  const handleClick = () => {
+    setSelected((selected+1)%anecdotes.length)
+  }
+
   return (
     <div>
-      {anecdotes[selected]}
+      <div>
+        {anecdotes[selected]}
+      </div>
+      <button onClick={handleClick}>next</button>
     </div>
+    
   )
 }
 
